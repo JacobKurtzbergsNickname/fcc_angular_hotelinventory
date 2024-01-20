@@ -1,0 +1,26 @@
+{
+    "reactSnippets.settings.importReactOnTop": false,
+    "php.suggest.basic": false,
+    "prettier.bracketSpacing": false,
+    "simpleBrowser.focusLockIndicator.enabled": false,
+    "testExplorer.codeLens": false,
+    "testExplorer.errorDecoration": false,
+    "testExplorer.errorDecorationHover": false,
+    "testExplorer.gutterDecoration": false,
+    "testExplorer.hideEmptyLog": false,
+    "testExplorer.showCollapseButton": false,
+    "todo-tree.tree.sort": false,
+    "todo-tree.tree.showCurrentScanMode": false,
+    "todo-tree.tree.showBadges": false,
+    "todo-tree.tree.scanAtStartup": false,
+    "remote.WSL.downloadInBackground": false,
+    "remote.WSL.useShellEnvironment": false,
+    "python.autoComplete.extraPaths": [
+
+    ],
+    "python.terminal.activateEnvironment": false,
+    "python.REPL.enableREPLSmartSend": false,
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "python.testing.promptToConfigure": false,
+    "python.createEnvironment.trigger": "off"
+}
