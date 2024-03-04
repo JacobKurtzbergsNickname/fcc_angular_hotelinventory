@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "hotel-waldlust",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
@@ -102,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "6991fc32-a0a2-49e0-9fb1-4e0084893321"
   }
 }
