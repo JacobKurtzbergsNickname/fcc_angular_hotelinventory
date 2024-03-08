@@ -1,11 +1,20 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { RoomsComponent } from './rooms/rooms.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
-  selector: 'hotel-waldlust-root',
+  selector: 'hotel-seefreuden-root',
   standalone: true,
-  imports: [RouterOutlet, RoomsComponent],
+  imports: [
+    RouterOutlet, 
+    RoomsComponent, 
+    RouterLink, 
+    RouterLinkActive,
+    NavigationComponent, 
+    MatToolbarModule
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

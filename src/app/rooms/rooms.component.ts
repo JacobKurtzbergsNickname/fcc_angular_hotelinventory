@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'hotel-waldlust-rooms',
+  selector: 'hotel-seefreuden-rooms',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './rooms.component.html',
